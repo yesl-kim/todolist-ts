@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# To do list
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> [Todo MVC](https://todomvc.com/examples/react/#/)
 
-## Available Scripts
+스토리북과 아토믹 디자인, 타입스크립트를 학습할 목적으로 투두리스트부터 시작하기로 했습니다.  
+디자인은 Todo MVC의 디자인을 차용했으며, 모든 코드는 직접 짭니다.  
+본 프로젝트는 다음 기술과 개념이 적용되었습니다.
 
-In the project directory, you can run:
+- React with create-react-app
+- styled-components
+- **Typescript**
+- **storybook**
+- **atomic design**
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 프로젝트 진행상황
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### todoMVC 아토믹 디자인 방법론에 따라 컴포넌트 나눠보기
 
-### `yarn test`
+![컴포넌트 설계](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84.jpg) ![컴포넌트 설계 - template](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84%20-%20template.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 문서화
 
-### `yarn build`
+문서화는 storybook으로 합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. storybook tutorial 따라해보기
