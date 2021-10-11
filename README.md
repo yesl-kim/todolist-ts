@@ -14,14 +14,18 @@
 
 ---
 
-## 프로젝트 진행상황
+## 프로젝트 진행
 
 ### todoMVC 아토믹 디자인 방법론에 따라 컴포넌트 나눠보기
 
-![컴포넌트 설계](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84.jpg) ![컴포넌트 설계 - template](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84%20-%20template.jpg)
+| atoms, molcules, organisms | templates |
+| :------------------------: | :-------: |
+
+![컴포넌트 설계](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84.jpg) | ![컴포넌트 설계 - template](https://github.com/yesl-kim/todolist-ts/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%84%A4%EA%B3%84%20-%20template.jpg)
 
 ### 문서화
 
-문서화는 storybook으로 합니다.
+문서화는 storybook으로 합니다.  
+(그래서 storybook 공부 먼저 합니다.)
 
 1. storybook tutorial 따라해보기
